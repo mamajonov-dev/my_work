@@ -1,0 +1,194 @@
+
+@media (max-width: 1399px) {
+   .main__work-nike-description{
+       max-width: 550px;
+   }
+   .main__work-nike-text{
+       padding-bottom: 20px;
+   }
+}
+@media (max-width: 1200px) {
+    .main__work-nike-description{
+        max-width: 470px;
+    }
+    .main__work-nike-text{
+        padding-bottom: 20px;
+    }
+ }
+
+@media (max-width: 1000px) {
+    .navbar-toggler{
+        background: #fff;
+    }
+    .header_title{
+        font-size: 50px;
+    }
+    .slider__inner{
+        display: flex;flex-direction: column;
+        justify-content: center;
+    }
+    .slider_right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 900px) {
+     .main__work-nike-description{
+         margin: 0;
+        max-width: 550px;
+    }
+    .main__work-nike{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .tab-pane .main__work-nike-img,
+    .tab-pane:nth-of-type(2) .main__work-nike-img,
+    .tab-pane:nth-of-type(3) .main__work-nike-img,
+    .tab-pane:nth-of-type(4) .main__work-nike-img,
+    .tab-pane:nth-of-type(5) .main__work-nike-img,
+    .tab-pane:nth-of-type(6) .main__work-nike-img{
+        margin-bottom: 10px;
+        width: 400px;
+        height: 350px;
+    }
+  
+}
+@media (max-width: 750px) {
+    .history-text,
+    .slider_text,
+    .main__work-nike-text,
+    .tab_content{
+        font-size: 18px;
+    }
+    .header_text{
+        font-size: 18px;
+    }
+    .header_title{
+        font-size: 40px;
+    }
+    .history-title{
+        font-size: 24px;
+    }
+    .accordion{
+        max-width: 500px;
+    }
+    
+.main .works2 .container .buttons .nav{
+    margin-left: 0;
+    font-size: 15px;
+    max-width: max-content;
+    }
+}
+
+
+
+@media (max-width: 700px) {
+    .accordion{
+        max-width: 500px;
+        padding: 15px;
+    }
+    
+.main .works2 .container .buttons .nav{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 0;
+    font-size: 15px;
+    max-width: max-content;
+    }
+    .main .works2 .container .buttons .nav .nav-link {
+        font-size: 10px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 600px) {
+    .works{
+        padding: 0;
+    }
+    .history-title{
+        margin: 20px auto;
+        font-size: 20px;
+    }
+    .main__work-nike-link{
+        font-size: 10px;
+    }
+    .header_title{
+        font-size: 30px;
+        text-align: center;
+    }
+    .header_text,
+    .history-text,
+    .slider_text,
+    .main__work-nike-text,
+    .tab_content{
+        font-size: 15px;
+    }
+}
+@media (max-width: 500px) {
+    .main__work-nike-text{
+        margin: 0;
+    }
+    .footer__mail{
+        font-size: 15px;
+    }
+    .footer .container{
+        width: auto;
+    }
+    .footer__menu_link{
+        font-size: 15px;
+    }
+    .accordion .tab .tab-title{
+        font-size: 15px;
+    }
+    .navbar .container .nav_title{
+        font-size: 16px;
+    }
+    .main .works2 .container .buttons .nav .nav-link {
+        font-size: 10px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    .slider_title{
+        font-size: 18px;
+    }
+    .d-block{
+        width: 300px;
+        height: 230px;
+    }
+    .tab-pane .main__work-nike-img,
+    .tab-pane:nth-of-type(2) .main__work-nike-img,
+    .tab-pane:nth-of-type(3) .main__work-nike-img,
+    .tab-pane:nth-of-type(4) .main__work-nike-img,
+    .tab-pane:nth-of-type(5) .main__work-nike-img,
+    .tab-pane:nth-of-type(6) .main__work-nike-img{
+        margin-bottom: 10px;
+        width: 300px;
+        height: 230px;
+    }
+  
+}
+
+@media (max-width: 380px) {
+    .header_title{
+        font-size: 25px;
+        text-align: center;
+    }
+    .header_text,
+    .history-text,
+    .slider_text,
+    .main__work-nike-text,
+    .tab_content{
+        font-size: 13px;
+    }
+    .footer__mail{
+        font-size: 12px;
+    }
+    .footer__menu_link{
+        font-size: 12px;
+    }
+}
